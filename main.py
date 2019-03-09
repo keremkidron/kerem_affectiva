@@ -6,7 +6,7 @@ subject_id = 1024
 x = json.load((open('data/%d.0.json' % subject_id)))
 # x[step_id] = (time, affectiva)
 
-# example:
+#  example:
 step_id = '0'
 time_step = 0
 time_stamp = x[step_id][time_step][0]
